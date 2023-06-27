@@ -1,0 +1,28 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+
+# Compiled source (JIT)
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Generated files
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+*.xcuserstate
+

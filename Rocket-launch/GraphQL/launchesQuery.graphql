@@ -1,0 +1,8 @@
+query LaunchesQuery($upcomingFind: LaunchFind, $pastFind: LaunchFind) {
+  launchesUpcoming(find: $upcomingFind) {
+    ...LaunchFragment
+  }
+  launchesPast(find: $pastFind) {
+    ...LaunchFragment
+  }
+}
